@@ -212,7 +212,7 @@ bootstrap.min.css .navbar-toggle {
 	width: 100%;
   	padding-top: 35vh;
   	text-align: center;
-  	background-image: url(../img/bg_back_new.png);
+  	background-image: url(../img/bg_back_final.jpg);
   	vertical-align: middle;
 }
 
@@ -266,7 +266,7 @@ bootstrap.min.css .navbar-toggle {
 #about {
 	background-position: center;
 	background-size: cover;
-	background-image: url(../img/bg_back2_new.png);
+	background-image: url(../img/bg_back2_new-compressed.jpg);
 	background-repeat: no-repeat;
 	/* background-size: cover; */
 	background-attachment: fixed;
@@ -949,9 +949,13 @@ footer .connect-us ul li a:hover {
 
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 750px) {
 	.baner-content {
 		background-repeat: no-repeat;
-		background-image: url(../img/bg_back_1_new.png);
+		background-image: url(../img/bg_back_1_new-compressed.jpg);
+	}
+	#about .service-item {
+		padding: 30px 0px;
+		text-align: center;
 	}
   }
