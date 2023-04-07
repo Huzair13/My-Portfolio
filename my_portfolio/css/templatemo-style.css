@@ -207,14 +207,16 @@ bootstrap.min.css .navbar-toggle {
 }
 
 .baner-content {
+	background-position: center;
+    background-size: cover;
 	width: 100%;
   	padding-top: 35vh;
   	text-align: center;
-  	background-image: url(../img/back_bg1.jpg);
+  	background-image: url(../img/bg_back.png);
   	vertical-align: middle;
 }
 
-.transparent-layer {
+/* .transparent-layer {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -224,7 +226,7 @@ bootstrap.min.css .navbar-toggle {
 	text-align: center;
 	vertical-align: middle;
 	background-color: rgba(0, 0, 0, 0.4);
-  }
+  } */
 
 
 .baner-content .text-content {
@@ -262,20 +264,13 @@ bootstrap.min.css .navbar-toggle {
 
 
 #about {
-	
-	background-image: url(../img/about-bg1.jpg);
-	background-repeat: no-repeat;
+	background-position: center;
 	background-size: cover;
+	background-image: url(../img/bg_back2.png);
+	background-repeat: no-repeat;
+	/* background-size: cover; */
 	background-attachment: fixed;
 }
-
-.transparent-layer2 {
-	size: cover;
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background-color: rgba(0, 0, 0, 0.4);
-  }
 
 #about .service-item {
 	padding: 150px 0px;
@@ -953,3 +948,10 @@ footer .connect-us ul li a:hover {
 	}
 
 }
+
+@media only screen and (max-width: 650px) {
+	.baner-content {
+		background-repeat: no-repeat;
+		background-image: url(../img/bg_back_1.png);
+	}
+  }
